@@ -1,0 +1,5 @@
+live server - atualização automática
+Beautifly css/sass/ - formata arquivos css
+HTML Class Suggestions - auto completar
+intellisense for CSS 
+
