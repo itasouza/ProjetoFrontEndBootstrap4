@@ -38,9 +38,6 @@
     <section id="barra-contacto" class="bg-primary text-white py-3 py-lg-1 text-center">
         <div class="container">
             <div class="row justify-content-sm-between align-items-sm-center">
-                <div class="col-12 col-sm-auto">
-                    <i class="fas fa-map-marker-alt mr-1"></i><span>R. Dona Gabriela - Vila Dom Pedro II São Paulo - SP</span>
-                </div>
 
                 <div class="col-12 col-sm-auto">
                     <ul class="redes-sociales list-unstyled d-inline-flex mb-0">
@@ -85,7 +82,7 @@
                 aria-expanded="false" aria-label="Botón Menú principal">
                 <span class="boton-menu"></span>
             </button>
-            <a href="#" class="btn btn-primary order-md-1">Solicitar uma visita</a>
+            <a href="#contacto" class="btn btn-primary order-md-1">Solicitar uma visita</a>
 
             <div class="collapse navbar-collapse" id="menu-principal">
                 <ul class="navbar-nav mt-3 mt-md-0">
@@ -114,7 +111,7 @@
                             <h2 class="display-4 font-weight-bold">
                                Desenvolvimento Inteligente - Estamos atentos as mudanças no mercado.
                             </h2>
-                            <a href="#" class="btn btn-primary">Solicitar uma visita</a>
+                            <a href="#contacto" class="btn btn-primary">Solicitar uma visita</a>
                         </div>
                     </div>
                 </div>
@@ -130,7 +127,7 @@
                             <h2 class="display-4 font-weight-bold">
                                Qualidade - Considerada do começo ao fim do processo de desenvolvimento.
                             </h2>
-                            <a href="#" class="btn btn-primary">Solicitar uma visita</a>
+                            <a href="#contacto" class="btn btn-primary">Solicitar uma visita</a>
                         </div>
                     </div>
                 </div>
@@ -144,7 +141,7 @@
                             <h2 class="display-4 font-weight-bold">
                                Experiência - Mais de 1 milhão de horas em projetos ágeis de sucesso.
                             </h2>
-                            <a href="#" class="btn btn-primary">Solicitar uma visita</a>
+                            <a href="#contacto" class="btn btn-primary">Solicitar uma visita</a>
                         </div>
                     </div>
                 </div>
@@ -187,7 +184,7 @@
                             Isso mesmo, temos paixão por desenvolvimento de software. Não desenvolvemos um projeto, 
                             uma ideia apenas para ter o retorno financeiro, temos paixão pelo resultado final
                     </p>
-                    <a href="#" class="btn btn-primary mt-3">leia mais</a>
+                    <a data-toggle="modal" data-target="#exampleModalLong" href="#" class="btn btn-primary mt-3">leia mais</a>
                 </div>
             </div>
         </div>
@@ -207,7 +204,7 @@
                 <div class="col-12">
                     <h2 class="display-4 font-weight-bold">Como podemos ajudar?</h2>
                     <p>Oferecemos uma ampla variedade de tecnologias para desenvolvimento do seu produto!</p>
-                    <a href="#" class="btn btn-primary">Deixe-nos saber </a>
+                    <a href="#contacto" class="btn btn-primary">Deixe-nos saber </a>
                 </div>
             </div>
 
@@ -278,7 +275,7 @@
                     <h2 class="h1 font-weight-bold">VEJA A LISTA DE ALGUNS PROJETOS DESENVOLVIDOS</h2>
                     <h6 class="text-white-50">SOMOS PARTE DE TÍ</h6>
                     <p>Nós criamos uma aplicação exclusiva para nossos clientes.</p>
-                    <a href="#" class="btn btn-primary mt-3">Conheça-nos mais</a>
+                    <a data-toggle="modal" data-target="#exampleModalLong" href="#" class="btn btn-primary mt-3">Conheça-nos mais</a>
 
                 </div>
             </div>
@@ -315,7 +312,8 @@
                             <i class="fas fa-mobile-alt fa-3x text-warning mr-4 fa-fw"></i>
                             <div>
                                 <h5 class="font-weight-bold">Telefones:</h5>
-                                <p class="mb-0">(+55) 11-98333-0842 - (+55) 11-99775-1608</p>
+                                <p class="mb-0">Jose Grespan (+55) 11-99775-1608</p>
+                                <p class="mb-0">Itamar Souza (+55) 11-98333-0842</p>
                             </div>
                         </li>
                         <li class="d-flex border-bottom py-4">
@@ -346,7 +344,7 @@
                             <label for="nombre" class="col-form-label col-12 col-md-3">Nome:</label>
                             <div class="col-12 col-md-9">
                                 <input type="text" class="form-control" name="nombre" id="nombre"
-                                    placeholder="Ingrese su nombre" data-parsley-required
+                                    placeholder="Entre com o seu nome" data-parsley-required
                                     data-parsley-required-message="Este campo não pode está vazio.">
                             </div>
                         </div>
@@ -356,7 +354,7 @@
                             <label for="email" class="col-form-label col-12 col-md-3">Email:</label>
                             <div class="col-12 col-md-9">
                                 <input type="email" class="form-control" name="email" id="email"
-                                    placeholder="Ingrese su email" data-parsley-required data-parsley-type="email"
+                                    placeholder="Seu e-mail" data-parsley-required data-parsley-type="email"
                                     data-parsley-required-message="Este campo não pode está vazio."
                                     data-parsley-type-message="Adione um e-mail com formato válido.">
                             </div>
@@ -367,7 +365,7 @@
                             <label for="celular" class="col-form-label col-12 col-md-3">Celular:</label>
                             <div class="col-12 col-md-9">
                                 <input type="text" class="form-control" name="celular" id="celular"
-                                    placeholder="Ingrese su celular" data-parsley-required data-parsley-length="[5, 20]"
+                                    placeholder="Entre com o seu número de celular" data-parsley-required data-parsley-length="[5, 20]"
                                     data-parsley-required-message="Este campo não pode está vazio."
                                     data-parsley-length-message="Adicione um número de telefone entre 5 a 20 letras.">
                             </div>
@@ -378,7 +376,7 @@
                             <label for="mensage" class="col-form-label col-12 col-md-3">Mensagem:</label>
                             <div class="col-12 col-md-9">
                                 <textarea name="mensage" id="mensage" rows="4" class="form-control"
-                                    placeholder="Ingrese su mensage." data-parsley-required
+                                    placeholder="Adicionar uma mensagem." data-parsley-required
                                     data-parsley-required-message="Este campo não pode está vazio."></textarea>
                             </div>
                         </div>
@@ -450,42 +448,35 @@
         Quando você acessa nosso site, também recebemos automaticamente o protocolo de internet do seu computador, endereço de IP, a fim de obter informações que nos ajudam a aprender sobre seu navegador e sistema operacional.
         Email Marketing será realizado apenas caso você permita. Nestes emails você poderá receber notícia sobre nossa loja, novos produtos e outras atualizações.
         </p>
-          <h5>SEÇÃO 1 - O QUE FAREMOS COM ESTA INFORMAÇÃO?</h5>
+          <h5>SEÇÃO 2 - CONSENTIMENTO</h5>
+        <p>Como vocês obtêm meu consentimento?</p>
+         <p>Quando você fornece informações pessoais como nome, telefone e endereço, para completar: uma transação, verificar seu cartão de crédito, fazer um pedido, providenciar uma entrega ou retornar uma compra. Após a realização de ações entendemos que você está de acordo com a coleta de dados para serem utilizados pela nossa empresa.</p>
+
+         <p>Se pedimos por suas informações pessoais por uma razão secundária, como marketing, vamos lhe pedir diretamente por seu consentimento, ou lhe fornecer a oportunidade de dizer não.
+</p>
+        <p>E caso você queira retirar seu consentimento, como proceder?
+</p>
+   <p>Se após você nos fornecer seus dados, você mudar de ideia, você pode retirar o seu consentimento para que possamos entrar em contato, para a coleção de dados contínua, uso ou divulgação de suas informações, a qualquer momento, entrando em contato conosco em suportetasdigital@gmail.com ou nos enviando uma correspondência em: Tas Digital http://tasdigital.com.br/
+</p>
+
+      <h5>SEÇÃO 3 - DIVULGAÇÃO</h5>
         <p>
-        Quando você realiza alguma transação com nossa loja, como parte do processo de compra e venda, coletamos as informações pessoais que você nos dá tais como: nome, e-mail e endereço.
-        Quando você acessa nosso site, também recebemos automaticamente o protocolo de internet do seu computador, endereço de IP, a fim de obter informações que nos ajudam a aprender sobre seu navegador e sistema operacional.
-        Email Marketing será realizado apenas caso você permita. Nestes emails você poderá receber notícia sobre nossa loja, novos produtos e outras atualizações.
+           Podemos divulgar suas informações pessoais caso sejamos obrigados pela lei para fazê-lo ou se você violar nossos Termos de Serviço.
         </p>
-                  <h5>SEÇÃO 1 - O QUE FAREMOS COM ESTA INFORMAÇÃO?</h5>
+                 
+     <h5>SEÇÃO 4 - SERVIÇOS DE TERCEIROS</h5>
         <p>
-        Quando você realiza alguma transação com nossa loja, como parte do processo de compra e venda, coletamos as informações pessoais que você nos dá tais como: nome, e-mail e endereço.
-        Quando você acessa nosso site, também recebemos automaticamente o protocolo de internet do seu computador, endereço de IP, a fim de obter informações que nos ajudam a aprender sobre seu navegador e sistema operacional.
-        Email Marketing será realizado apenas caso você permita. Nestes emails você poderá receber notícia sobre nossa loja, novos produtos e outras atualizações.
+No geral, os fornecedores terceirizados usados por nós irão apenas coletar, usar e divulgar suas informações na medida do necessário para permitir que eles realizem os serviços que eles nos fornecem.
         </p>
-                  <h5>SEÇÃO 1 - O QUE FAREMOS COM ESTA INFORMAÇÃO?</h5>
-        <p>
-        Quando você realiza alguma transação com nossa loja, como parte do processo de compra e venda, coletamos as informações pessoais que você nos dá tais como: nome, e-mail e endereço.
-        Quando você acessa nosso site, também recebemos automaticamente o protocolo de internet do seu computador, endereço de IP, a fim de obter informações que nos ajudam a aprender sobre seu navegador e sistema operacional.
-        Email Marketing será realizado apenas caso você permita. Nestes emails você poderá receber notícia sobre nossa loja, novos produtos e outras atualizações.
-        </p>
-                  <h5>SEÇÃO 1 - O QUE FAREMOS COM ESTA INFORMAÇÃO?</h5>
-        <p>
-        Quando você realiza alguma transação com nossa loja, como parte do processo de compra e venda, coletamos as informações pessoais que você nos dá tais como: nome, e-mail e endereço.
-        Quando você acessa nosso site, também recebemos automaticamente o protocolo de internet do seu computador, endereço de IP, a fim de obter informações que nos ajudam a aprender sobre seu navegador e sistema operacional.
-        Email Marketing será realizado apenas caso você permita. Nestes emails você poderá receber notícia sobre nossa loja, novos produtos e outras atualizações.
-        </p>
-                  <h5>SEÇÃO 1 - O QUE FAREMOS COM ESTA INFORMAÇÃO?</h5>
-        <p>
-        Quando você realiza alguma transação com nossa loja, como parte do processo de compra e venda, coletamos as informações pessoais que você nos dá tais como: nome, e-mail e endereço.
-        Quando você acessa nosso site, também recebemos automaticamente o protocolo de internet do seu computador, endereço de IP, a fim de obter informações que nos ajudam a aprender sobre seu navegador e sistema operacional.
-        Email Marketing será realizado apenas caso você permita. Nestes emails você poderá receber notícia sobre nossa loja, novos produtos e outras atualizações.
-        </p>
-                  <h5>SEÇÃO 1 - O QUE FAREMOS COM ESTA INFORMAÇÃO?</h5>
-        <p>
-        Quando você realiza alguma transação com nossa loja, como parte do processo de compra e venda, coletamos as informações pessoais que você nos dá tais como: nome, e-mail e endereço.
-        Quando você acessa nosso site, também recebemos automaticamente o protocolo de internet do seu computador, endereço de IP, a fim de obter informações que nos ajudam a aprender sobre seu navegador e sistema operacional.
-        Email Marketing será realizado apenas caso você permita. Nestes emails você poderá receber notícia sobre nossa loja, novos produtos e outras atualizações.
-        </p>
+        <p>Entretanto, certos fornecedores de serviços terceirizados, tais como gateways de pagamento e outros processadores de transação de pagamento, têm suas próprias políticas de privacidade com respeito à informação que somos obrigados a fornecer para eles de suas transações relacionadas com compras.
+</p>
+       <p>Para esses fornecedores, recomendamos que você leia suas políticas de privacidade para que você possa entender a maneira na qual suas informações pessoais serão usadas por esses fornecedores.
+</p>
+      <p>Em particular, lembre-se que certos fornecedores podem ser localizados em ou possuir instalações que são localizadas em jurisdições diferentes que você ou nós. Assim, se você quer continuar com uma transação que envolve os serviços de um fornecedor de serviço terceirizado, então suas informações podem tornar-se sujeitas às leis da(s) jurisdição(ões) nas quais o fornecedor de serviço ou suas instalações estão localizados.
+</p>
+      <p>Como um exemplo, se você está localizado no Canadá e sua transação é processada por um gateway</p>
+
+               
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary btn-block btn-lg" data-dismiss="modal">Fechar</button>
