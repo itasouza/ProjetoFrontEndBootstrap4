@@ -5,12 +5,12 @@
 Parsley.addMessages('es', {
   defaultMessage: "Este valor parece ser inválido.",
   type: {
-    email:        "Este valor debe ser un correo válido.",
-    url:          "Este valor debe ser una URL válida.",
-    number:       "Este valor debe ser un número válido.",
-    integer:      "Este valor debe ser un número válido.",
-    digits:       "Este valor debe ser un dígito válido.",
-    alphanum:     "Este valor debe ser alfanumérico."
+    email:        "Este valor deve ser um email válido.",
+    url:          "Este valor deve ser uma URL válida",
+    number:       "Este valor deve ser um número válido",
+    integer:      "Este valor deve ser um número válido.",
+    digits:       "Este valor deve ser um dígito válido",
+    alphanum:     "Este valor deve ser alfanumérico."
   },
   notblank:       "Este valor no debe estar en blanco.",
   required:       "Este valor es requerido.",
