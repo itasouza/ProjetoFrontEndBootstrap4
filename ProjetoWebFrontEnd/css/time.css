@@ -1,5 +1,11 @@
-#team {
-    background: #eee !important;
+
+
+.titulo-empresa{
+   color: #007b5e !important;
+}
+
+.texto-colaborador-principal{
+   color: #fff !important;  
 }
 
 .btn-primary:hover,
@@ -16,9 +22,7 @@
     border-color: #007b5e;
 }
 
-section {
-    padding: 60px 0;
-}
+
 
 section .section-title {
     text-align: center;
@@ -116,6 +120,10 @@ section .section-title {
 
 .frontside .card .card-title,
 .backside .card .card-title {
+    color: #007b5e !important;
+}
+
+.card-text{
     color: #007b5e !important;
 }
 
