@@ -113,7 +113,7 @@ $(function () {
     /*-----------------------------------------------------------
          6. INICIANDO "parsley.js"
          -------------------------------------------------------------*/
-    $('#mi-formulario').parsley({
+   /* $('#mi-formulario').parsley({
         errorClass: 'is-invalid text-danger',
         successClass: 'is-valid',
         errorsWrapper: '<ul class="list-unstyled text-danger mb-0 pt-2 small"></ul>',
@@ -121,7 +121,7 @@ $(function () {
         trigger: 'change',
         triggerAfterFailure: 'change'
 
-    });
+    }); */
 
     /*-----------------------------------------------------------
              6. INICIANDO "stickit.js"
